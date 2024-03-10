@@ -1,0 +1,15 @@
+{
+  "name": "player1",
+  "type": "dynamic",
+  "description": "Player one controlled by mouse",
+  "shape": "omni",
+  "radius": 20,
+  "friction": {
+    "collision": 1,
+    "linear": 1,
+    "rotational": 1000
+  },
+  "sensors": [],
+  "mass": 5,    
+  "controller": "lib/player1.so"
+}

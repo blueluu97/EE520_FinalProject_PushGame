@@ -1,0 +1,15 @@
+{
+    "name": "ball",
+    "type": "dynamic",
+    "description": "A ball that each player have to push",
+    "shape": "omni",
+    "radius": 10,
+    "friction": {
+      "collision": 1,
+      "linear": 1,
+      "rotational": 1000
+    },
+    "sensors": [],
+    "mass": 3,    
+    "controller": "lib/ball.so"
+}

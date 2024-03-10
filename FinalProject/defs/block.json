@@ -1,0 +1,19 @@
+{
+    "name": "block",
+    "type": "staic",
+    "description": "Block object",
+    "shape": [
+        { "x": -15, "y": 15 },
+        { "x": 15, "y": 15 },
+        { "x": 15, "y": -15 },
+        { "x": -15, "y": -15 }
+    ],
+    "friction": {
+      "collision": 50,
+      "linear": 200,
+      "rotational": 1000
+    },
+    "sensors": [],
+    "mass": 1000,    
+    "controller": "lib/block.so"
+}

@@ -1,0 +1,19 @@
+{
+    "name": "player2",
+    "type": "dynamic",
+    "description": "Player 2",
+    "shape": [
+        { "x": -20, "y": 20 },
+        { "x": 20, "y": 20 },
+        { "x": 20, "y": -20 },
+        { "x": -20, "y": -20 }
+    ],
+    "friction": {
+      "collision": 1,
+      "linear": 1,
+      "rotational": 10
+    },
+    "sensors": [],
+    "mass": 6,    
+    "controller": "lib/player2.so"
+}
